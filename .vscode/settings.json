@@ -1,7 +1,11 @@
 {
+<<<<<<< HEAD
     "python.pythonPath": ".venv/bin/python",
     "python.testing.promptToConfigure": false,
     "python.testing.pytestEnabled": false,
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false
+=======
+    "python.pythonPath": ".venv/bin/python"
+>>>>>>> 2f2f6a6e0276c585ea656c96511dff51776c3251
 }
