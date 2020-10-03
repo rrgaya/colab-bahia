@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-
+from .routers import posts
 
 app = FastAPI(
     title="Projeto de Colaboração Social",
@@ -8,6 +8,9 @@ app = FastAPI(
 )
 
 
-@app.get("/")
+@app.get("/", tags=["Colab"])
 def index():
     return {"Project": "Colab"}
+
+
+app.include_router(posts.router, prefix="/posts", tags=["Posts"])
