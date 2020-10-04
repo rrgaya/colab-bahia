@@ -9,8 +9,8 @@ Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="Projeto de Colaboração Social",
-    debug=True,
-    description="Projeto de Colaboração Social por meio de fiscaliação."
+    description="Projeto de Colaboração Social por meio de fiscaliação.",
+    debug=True
 )
 
 
