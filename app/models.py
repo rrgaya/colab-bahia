@@ -1,7 +1,7 @@
 from uuid import uuid4
 from sqlalchemy.dialects.postgresql import UUID
 
-from sqlalchemy import Column, Integer, Numeric, String
+from sqlalchemy import Column, Integer, String
 from .database import Base
 
 
@@ -16,4 +16,4 @@ class Post(Base):
     photo = Column(String)
     address = Column(String)
     description = Column(String)
-    apoio = Column(Integer)
+    support_case = Column(Integer)
