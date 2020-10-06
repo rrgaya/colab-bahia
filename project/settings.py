@@ -117,5 +117,5 @@ STATICFILES_DIRS = [
 MEDIA_URL = '/media/'
 MEDIA_ROOT = 'media'
 
-LOGIN_URL = '/login/'
-LOGIN_REDIRECT_URL = '/clientes/list'
+# LOGIN_URL = '/login/'
+# LOGIN_REDIRECT_URL = '/clientes/list'
