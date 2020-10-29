@@ -40,7 +40,7 @@ class Post(BaseModel):
     address = models.CharField(max_length=200)
     description = models.TextField()
     user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
-    support_case = models.PositiveIntegerField()
+    support_case = models.PositiveIntegerField(null=True, blank=True)
 
     def __str__(self) -> str:
         return str(self.title)
